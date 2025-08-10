@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card Example</title>
+  <style>
+    body {
+      background-color: #edf41c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .profile-card {
+      background: #f9f9f8;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+      width: 350px;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .profile-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #4A90E2;
+      margin-bottom: 15px;
+    }
+
+    .profile-card h2 {
+      margin: 0 0 8px 0;
+      font-size: 1.5em;
+      color: #333;
+    }
+
+    .profile-card p {
+      color: #777;
+      margin-bottom: 16px;
+    }
+
+    .profile-card .social {
+      margin-top: 10px;
+    }
+
+    .profile-card .social a {
+      text-decoration: none;
+      color: #4A90E2;
+      font-size: 1.2em;
+      margin: 0 8px;
+      transition: color 0.2s;
+    }
+
+    .profile-card .social a:hover {
+      color: #0077b5;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="me2.jpg" alt="Profile Image">
+    <h2>Shivam Shukla</h2>
+    <p>A Web Developer In Training<br>Lucknow,UttarPradesh(ndia)</p>
+    <div class="social">
+      <a href="https://twitter.com/digishivam_" target="_blank">🐦</a>
+      <a href="www.linkedin.com/in/shivamsshukla" target="_blank">🔗</a>
+      <a href="https://github.com/digishivam" target="_blank">🐙</a>
+    </div>
+  </div>
+</body>
+</html>
